@@ -3,8 +3,6 @@
 
 The purpose of this library is to easily check that the Missing parameter library for node.js
 
-[![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![Code Climate][cc-image]][cc-url] [![license][license-image]][license-url]
-
 # Basic examples
 ```js
 
