@@ -1,12 +1,12 @@
 {
-  "name": "param-validator",
+  "name": "param-validator-node",
   "description": "parameter validator module.",
   "author": "vinod khetade",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
    "types": "lib/index.d.ts",
-   "keywords": ["parameter-validator", "request-validator"],
+   "keywords": ["parameter-validator-node", "request-validator-node"],
   "repository": {
     "type": "git",
     "url": "git://github.com/vinodnextcoder/param-validator.git"
