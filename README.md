@@ -1,7 +1,7 @@
-# param-validator
+# param-validator-node
 **A small parameter validation library**
 
-The purpose of this library is to easily check that the Missing parameter library for node.js
+The purpose of this library is to easily check that the Missing parameter in node.js
 
 # Basic examples
 ```js
