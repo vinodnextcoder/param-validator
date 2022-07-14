@@ -10,7 +10,7 @@ const { checkRequiredMissingParam } = require ('param-validator-node');
 const requestPayload = { email: 'test@gmail.com' };
 const checkRequiredParamm = ['name'];
 const Validator = checkRequiredMissingParam(requestPayload, checkRequiredParamm);
-//throws errro Missing param [name]
+//throws error Missing param [name]
 
 ```
 
