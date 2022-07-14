@@ -9,14 +9,10 @@ const hasOwnProperty = Object.prototype.hasOwnProperty;
  * @param obj {object} object
  * @param keyList {array} array of object key
  */
-export function findMissingKeyInObject(obj: { [x: string]: string }, keyList: any) {
+export function findMissingKeyInObject(obj: any, keyList: any) {
   const missingKeys: any[] = [];
   if (keyList && keyList.length > 0) {
     keyList.forEach((key: any) => {
-      if (typeof obj[key] === 'string') {
-        obj[key] = obj[key].trim();
-      }
-
       if (!hasOwnProperty.call(obj, key) || obj[key] === null || obj[key] === '') missingKeys.push(key);
     });
   }

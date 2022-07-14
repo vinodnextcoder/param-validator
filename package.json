@@ -1,7 +1,17 @@
 {
+  "name": "param-validator",
+  "description": "parameter validator module.",
+  "author": "vinod khetade",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vinodnextcoder/param-validator.git"
+  },
   "scripts": {
     "start": "ts-node ./src/index.ts",
     "test": "jest --config jestconfig.json",
+    "test:coverage": "jest --coverage --config jestconfig.json",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" ",
     "lint": "tslint -p tsconfig.json"
